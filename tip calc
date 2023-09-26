@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 bill = input("Enter your bill: ")
 tip = input("Enter the tip: ")
 
 x = float(bill)
 y= int(tip)
 
-=======
-bill = input("Enter your bill: ")
-tip = input("Enter the tip: ")
-
-x = float(bill)
-y= int(tip)
-
->>>>>>> 70a7adb4edd9a9c61fc8658509f46679cb9c6a44
 print(x + y)
