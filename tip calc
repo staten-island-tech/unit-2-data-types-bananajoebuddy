@@ -1,0 +1,7 @@
+bill = input("Enter your bill: ")
+tip = input("Enter the tip: ")
+
+x = float(bill)
+y= int(tip)
+
+print(x + y)
