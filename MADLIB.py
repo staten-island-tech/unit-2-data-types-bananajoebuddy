@@ -24,4 +24,3 @@ story = ("Outside on a " + adjective + " day, you go picking " + noun + " for yo
 
 print(story)
 print(madlib)
-print("Audrey stop dancing")
