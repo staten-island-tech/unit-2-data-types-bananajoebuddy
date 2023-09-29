@@ -1,0 +1,6 @@
+print ("did you open your door today?")
+x = input()
+y = 1
+if x == "yes" or "Yes" or "yea" or "uh huh" or "Yea":
+    print ("you went to school")
+x
