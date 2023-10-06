@@ -1,0 +1,58 @@
+#tip calculator
+
+bill = input("Enter your bill: ")
+tip = input("Enter the tip: ")
+
+x = float(bill)
+y= int(tip)
+
+print(x + y)
+
+#split sentence into indivdual words then count the amount of words in the list
+x=input("Enter a sentence I'll tell you the amount of words: ")
+y = x.split()
+z = len(y)
+print(z)
+
+#odd or even
+x = input("Enter a number: ")
+y = float(x)%2
+
+if y == 0:
+    print("its even")
+else:
+    print("its odd")
+x
+
+#offer tip based off service
+x = input("Enter your bill value: ")
+tip = input("Enter how your service was, bad, okay, good, great:  ")
+if tip == "bad":
+    print("your tip is 0%, lucky")
+elif tip == "okay":
+    print("your tip is 15%")
+elif tip == "good":
+    print("your tip is 20%")
+elif tip == "great":
+    print("your tip is 25%")
+else:
+    print("That's not what I asked")
+
+#find factors of a number
+x=int(input("Enter a number: "))
+for i in range(1, x + 1):
+    if x % i == 0:
+        print(i)
+
+#find the gcf of two numbers
+
+a=int(input("Enter an integer: "))
+b =int(input("Enter another integer: "))
+r = a%b
+q = int(a/b)
+while(r!=0):
+    a = b
+    b = r
+    q = int(a/b)
+    r = a - (b * q)
+print(b)
