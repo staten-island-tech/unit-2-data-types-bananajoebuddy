@@ -1,10 +1,11 @@
 import random
 correct = "false"
 guess = 0
+history = []
 num = random.randint(1,10)
 while correct == "false":
-    history = list()
     guess = int(input("Guess a number between 1 and 10: "))
+    history.append(guess)
     if guess == num:
         print("Correct!")
         correct = "true"
@@ -14,5 +15,4 @@ while correct == "false":
         print("Higher")
     else:
         print("huh")
-history += guess
 print(history)
