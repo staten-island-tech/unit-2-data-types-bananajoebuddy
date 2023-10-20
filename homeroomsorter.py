@@ -12,12 +12,12 @@ else:
 
 #program 2
 
-lastname2 = input("Enter your last name:  ")
+lastname2 = input("Enter your last name with Captial Letter:  ")
 firstinitial2 = list(lastname2)
 homeroom2 = ["101,102,103"]
 if firstinitial2[0] in ["A,","B,","C,","D,","E,","F,","G"]:
     print("you're in homeroom 101")
-elif firstinitial2[0] in ["H","I,","J,","K,","L,","M,","N,","O,","P"]:
+elif firstinitial2[0] in ["H","I","J","K","L","M","N","O","P"]:
     print("you're in 102")
 else:
     print("you're in homeroom 103, good luck")
